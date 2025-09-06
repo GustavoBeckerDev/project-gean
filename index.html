@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="public/style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-</head>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    </head>
 <body>
 
     <nav>
@@ -31,55 +31,34 @@
     <section id="home">
         <img src="public/imgs/1.jpg" alt="Imagem de fundo da home" class="background-image">
         <div class="content-wrapper">
-            <h1>Videgrícola <br> Equipamentos Agrícolas</h1>
-            <p>Soluções agrícolas inovadoras para o seu campo.</p>
+            <h1>VideGrícola <br> Equipamentos Agrícolas</h1>
+            <p>Soluções agrícolas inovadoras para o agro.</p>
         </div>
     </section>
 
-    </div>
-
     <section id="about">
-        <h2>Sobre Nós</h2>
-        <div class="about-grid">
-            <div class="grid-card">
-                <img src="public/imgs/1.jpg" alt="Equipe de Engenheiros">
-                <h3>Equipe de Engenheiros</h3>
-                <p>Nossos especialistas em engenharia criam soluções de ponta.</p>
+        <div class="about-container">
+            <div class="about-left">
+                <h2>Sobre Nós</h2>
+                <p>A VideGrícola é uma empresa líder no desenvolvimento e fabricação de equipamentos agrícolas de alta qualidade. Com anos de experiência no setor, oferecemos soluções inovadoras que aumentam a produtividade e eficiência no campo.</p>
+                
+                <p>Nosso compromisso é fornecer equipamentos robustos, duráveis e tecnologicamente avançados para atender às necessidades dos produtores rurais modernos.</p>
+                
+                <div class="about-links">
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#products">Nossos Produtos</a></li>
+                        <li><a href="#contacts">Entre em Contato</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="grid-card">
-                <img src="public/imgs/2.jpg" alt="Controle de Qualidade">
-                <h3>Controle de Qualidade</h3>
-                <p>Equipamentos robustos e duráveis, testados para o campo.</p>
-            </div>
-            <div class="grid-card">
-                <img src="public/imgs/3.jpg" alt="Tecnologia no Campo">
-                <h3>Tecnologia no Campo</h3>
-                <p>Incorporamos tecnologia avançada em nossos designs.</p>
-            </div>
-            <div class="grid-card">
-                <img src="public/imgs/4.jpg" alt="Sustentabilidade">
-                <h3>Sustentabilidade</h3>
-                <p>Comprometimento com práticas sustentáveis na produção.</p>
-            </div>
-            <div class="grid-card">
-                <img src="public/imgs/5.jpg" alt="Suporte ao Cliente">
-                <h3>Suporte ao Cliente</h3>
-                <p>Oferecemos suporte completo e garantia em todos os produtos.</p>
-            </div>
-            <div class="grid-card">
-                <img src="public/imgs/6.jpg" alt="Inovação Contínua">
-                <h3>Inovação Contínua</h3>
-                <p>Estamos sempre desenvolvendo novas tecnologias para o futuro.</p>
-            </div>
-            <div class="grid-card">
-                <img src="public/imgs/7.jpg" alt="Inovação Contínua">
-                <h3>Inovação Contínua</h3>
-                <p>Estamos sempre desenvolvendo novas tecnologias para o futuro.</p>
-            </div>
-            <div class="grid-card">
-                <img src="public/imgs/8.jpg" alt="Inovação Contínua">
-                <h3>Inovação Contínua</h3>
-                <p>Estamos sempre desenvolvendo novas tecnologias para o futuro.</p>
+            
+            <div class="about-right">
+                <div class="about-image-card">
+                    <img src="public/imgs/videgricola.jpg" alt="Equipamentos Agrícolas VideGrícola">
+                    <h3>Tecnologia e Inovação</h3>
+                    <p>Equipamentos de última geração para maximizar sua produtividade no campo.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -142,6 +121,9 @@
 
             <label for="phone">Telefone:</label>
             <input type="tel" id="phone" name="phone">
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
             
             <button type="submit">Enviar</button>
         </form>
@@ -183,6 +165,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>
